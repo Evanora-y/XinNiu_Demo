@@ -1,0 +1,93 @@
+body{
+
+    text-align: center;
+    position: relative;
+    
+}
+
+.the_hr{
+    height: 40px;
+    /* background-color: blue; */
+    width: 1300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.the_wari{
+
+    width: 963px;
+    text-align: center;
+    text-align: left;
+    position: absolute;
+    top: 600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.img{
+
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 0px 3px 3px rgba(171, 166, 166, 0.5);
+}
+.one{
+
+    margin: 0;
+}
+.bu{
+
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.the_wari_02{
+
+    width: 963px;
+    text-align: center;
+    text-align: left;
+    position: absolute;
+    top: 1600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.the_wari_03{
+
+    width: 963px;
+    text-align: center;
+    text-align: left;
+    position: absolute;
+    top: 2600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+.the_wari_04{
+
+    width: 963px;
+
+    position: absolute;
+    top: 3600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}

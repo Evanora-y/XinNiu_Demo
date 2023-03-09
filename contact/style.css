@@ -1,0 +1,167 @@
+/* 运行环境代码如下----------------------------------------------------------------------------------------------- */
+
+.the_center{
+
+    width: 720px;
+    position: absolute;
+    margin: auto;
+    top: 120px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* text-align: center; */
+    
+}
+body{
+
+    position: relative;
+
+}
+.h1{
+
+    font-size: 40px;
+}
+/* .yswz{
+
+    width: 5px;
+    height: 30px;
+    background-color: rgb(135, 120, 120);
+    display: inline-block;
+} */
+/* .bok{
+
+    display: inline-block;
+    
+} */
+/* .yswz_div{
+    height: 30px;
+    width: auto;
+    border: left 5px;
+
+} */
+.the_wari_04{
+
+    width: 963px;
+
+    position: absolute;
+    top: 3600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+
+/* 测试环境代码如下（方案一） -----------------------------------------------------------------------------------------------*/
+
+/* .yswz{
+
+    width: 5px;
+    height: 30px;
+    background-color: rgb(135, 120, 120);
+    display: inline-block;
+    margin: 0;
+}
+.yswz_div{
+
+
+    background-color: blue;
+
+}
+.yswz_div{
+    height: 50px;
+    width: auto;
+    border: left 5px;
+    padding: 0;
+
+}
+.bok{
+
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
+} */
+
+/* 方案二测试代码如下----------------------------------------------------------------------------------------------- */
+
+
+.center{
+
+    /* background-color: blue; */
+
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    margin: auto;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.yswz_hava_left{
+
+    /* background-color: aquamarine; */
+    width: 600px;
+    height: 30px;
+    border-left: solid  rgb(103, 92, 92);
+    border-left-width: 5px;
+    padding-left: 5px;
+}
+.together{
+
+    width: 600px;
+    height: 80px;
+    /* background-color: rgb(233, 233, 233); */
+    margin-bottom: 5px;
+    /* border-style: solid ; */
+    /* border-color: rgb(212, 199, 199); */
+    background-color:rgb(241, 241, 241);
+    
+}
+.yswz_hava_left>span{
+
+    font-size: 20px;
+}
+
+
+
+
+/* ---------------------版权----------------------- */
+
+.the_hr_bottom {
+    height: 40px;
+    width: 1300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.the_hr_bottom_coup{
+
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.the_hr_bottom{
+    height: 40px;
+    /* background-color: blue; */
+    width: 1300px;
+    position: absolute;
+    top: 600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}

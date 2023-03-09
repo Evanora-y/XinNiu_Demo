@@ -1,0 +1,70 @@
+.mian_page_001{
+
+    width: 1440px;
+    height: 903px;
+}
+.mian_page_001_div{
+    text-align: center;
+    width: 1140;
+}
+
+.mian_page_002_title{
+
+    font-weight: bold;
+    font-size: 32px;
+}
+.mian_page_002_div{
+    /* width: 130px;
+    height:130px; */
+    /* background-color: blue; */
+    /* text-align: center; */
+    margin: 0 130px;
+    display: inline-block;
+}
+
+.mian_page_002_div_001{
+
+    width: 380.08;
+    height: 553.01;
+    text-align: left;
+}
+.video_div{
+    display: inline-block;
+    /* float: right; */
+    width: 839.93;
+    height: 553.01;
+    
+}
+.mian_page_002_all{
+
+    height: 553.01;
+    width: 380.08;
+    display: inline-block;
+    /* float:left; */
+    /* background-color: blueviolet; */
+
+}
+.font_mian_page_002_001{
+
+    font-size: 18px;
+}
+
+
+
+
+/* ------------------ */
+.the_title_dop {
+    display: inline-block;
+    width: 98px;
+    height: 70px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 70px;
+
+}
+
+/* ------------------ */
+.the_title_dop_div {
+    text-align: center;
+}

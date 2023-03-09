@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小组设计</title>
+    <!-- 以下css负责首页的标题及按钮页面 -->
+    <link rel="stylesheet" href="./css/the_home_top.css">
+    <!-- 以下css负责首页的除标题及按钮的其他页面 -->
+    <link rel="stylesheet" href="./css/the_home_dop.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- 以下css负责导航栏 -->
+    <style>
+        /* body {
+
+            background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+        } */
+
+        a {
+
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .the_title:hover {
+            border-bottom: 4px solid rgb(5, 5, 5);
+        }
+
+        .the_title {
+            display: inline-block;
+            width: 98px;
+            height: 70px;
+            text-align: center;
+            font-size: 16px;
+            display: inline-block;
+            line-height: 70px;
+
+        }
+
+        .the_title_fic {
+            height: 70px;
+            text-align: center;
+
+
+        }
+
+        .the_title_right {
+            float: right;
+        }
+
+        .the_title_left {
+            float: left;
+        }
+
+        .the_title_div_bottom:hover {
+            border-bottom: 4px solid rgb(250, 244, 244);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="the_title_fic">
+
+
+        <!-- 靠左div -->
+        <div class="the_title_left">
+
+
+            <div class="the_title">
+                <a href="../bitable/index.html">多维表</a>
+            </div>
+            <div class="the_title">
+                <a href="../folder/index.html">文件夹</a>
+            </div>
+            <div class="the_title">
+                <a href="../cooperation/index.html">团队协作</a>
+            </div>
+            <div class="the_title">
+                <a href="../doc/index.html">文档</a>
+            </div>
+            <div class="the_title">
+                <a href="../contact/index.html">联系我们</a>
+            </div>
+
+        </div>
+
+
+        <!-- 靠右div -->
+        <div class="the_title_right">
+
+            <div class="the_title">
+                <a href="../home_03/index.html">关于我们</a>
+            </div>
+            <div class="the_title">
+                <a href="../home_01/index.html">下载页面</a>
+            </div>
+            <div class="the_title">
+                <a href="../home_02/index.html">注册登录</a>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+
+
+    <!-- 正文部分开始 -->
+
+
+    <!-- 方案一代码如下 -->
+
+
+    <!-- <div class="the_center">
+
+        <h1 class="h1">联系我们</h1>
+
+        <div class="yswz_div">
+            <div class="yswz"></div>
+            <p class="bok">感谢您观看我们的演示页面！</p>
+        </div>
+
+
+        <br>
+        <br><br>
+        <p>本页面由小组成员经历4天的设计和开发，在其模仿的网页基础上，
+            基于简洁的美学而设计，其中部分的页面在不同的浏览器会显示不同的样式，由于技术和时间的限制，无法完全适配所有浏览器。</p>
+        <br><br>
+
+        <p>联系邮箱：admin@evanora.top</p>
+
+    </div> -->
+
+
+    <!-- 方案二代码如下 -->
+
+
+    <!-- 主体框架开始 -->
+    <div class="center">
+
+        <h1 style="font-size: 40px;">联系我们</h1>
+        <br>
+        <div class="yswz_hava_left">
+            <!-- 内部含有引述文字-->
+
+            <span>欢迎使用邮件与我们联系</span>
+
+        </div>
+        <br><br>
+
+        <div class="together"><img style="width: 22px;" src="./images/u1f4bc.svg" alt=""> 商务合作<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; admin@evanora.top
+        </div>
+
+        <div class="together"><img style="width: 22px;" src="./images/u1f4ac.svg" alt="">问题反馈<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; admin@evanora.top</div>
+
+        <div class="together"><img style="width: 22px;" src="./images/u1f481_1f3fb.svg" alt="">客户服务<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; admin@evanora.top</div>
+
+        <div class="together"><img style="width: 22px;" src="./images/微信.png" alt="">微信公众号
+            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;admin@evanora.top
+        </div>
+
+
+    </div>
+
+
+    <!-- 版权 -->
+
+    <br><br>
+    <div class="the_hr_bottom">
+        <hr>
+        <br>
+        <p class="the_hr_bottom_coup">
+            <a href="">用户协议</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="">隐私政策</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            版本号：1.6.0&nbsp;&nbsp;&nbsp;&nbsp;
+            开发者名称：云上绿洲（北京）科技有限公司 Copyright©2022&nbsp;&nbsp;&nbsp;&nbsp;
+            京公网安备110105XXXXX495号&nbsp;&nbsp;&nbsp;&nbsp;
+            京ICP备2XXXXXX461号-4号&nbsp;&nbsp;&nbsp;&nbsp;
+            增值电信业务经营许可证 京B2-20XXXX48
+        </p>
+        <br>
+
+
+    </div>
+
+
+    <!-- 版权 -->
+
+
+
+    <script>
+
+        function onclick_about() {
+
+            alert("注意：您即将访问的页面是第三方网页，需要启用互联网,通过这个网页可以了解我们小组的制作流程！");
+
+
+        }
+    </script>
+
+
+
+</body>
+
+</html>

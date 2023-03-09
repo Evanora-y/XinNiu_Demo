@@ -1,0 +1,82 @@
+.the_login_div {
+
+    height: 600px;
+    position: relative;
+    /* background-color: aqua; */
+    text-align: center;
+    position: relative;
+
+}
+
+.the_login_div>div {
+
+    width: 400px;
+    height: 600px;
+    /* background-color:rgb(60, 60, 129); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+
+}
+
+.the_login_div>div>p {
+
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+
+
+}
+
+input {
+
+    width: 100%;
+    /* 输入框内间距 */
+    padding: 12px 20px;
+    /* 输入框间距 */
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    /* 输入框颜色 */
+    border: 2px solid #e5e7eb;
+    /* 使输入框变圆滑 */
+    border-radius: 4px;
+
+    background-color:#fbfbfb;
+}
+
+.button_up {
+
+    width: 100%;
+    /* 输入框内间距 */
+    padding: 12px 20px;
+    /* 输入框间距 */
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    /* 输入框颜色 */
+    border: 2px solid #e5e7eb;
+    /* 使输入框变圆滑 */
+    border-radius: 4px;
+
+    background-color:#cac8c8;
+}
+.other_login_style{
+
+    width: 130px;
+    /* height: 24px; */
+    /* height: 600px; */
+    /* background-color: aqua; */
+    text-align: center;
+    line-height: 24px;
+
+    display: inline-block;
+}
+.img_dop{
+
+
+    border-radius: 40px;
+
+}

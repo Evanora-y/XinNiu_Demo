@@ -1,0 +1,47 @@
+body {
+
+    text-align: center;
+    position: relative;
+
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+.bu {
+
+    background-color: black;
+    color: aliceblue;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-weight: bold;
+}
+
+.the_hr {
+    height: 40px;
+    width: 1300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+.coup{
+
+    font-size: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,131 @@
+.the_all_div {
+
+    /* width: 300px; */
+    height: 600px;
+    /* background-color: blue; */
+    position: relative;
+    
+}
+
+
+.the_all_div>div {
+
+    width: 1050px;
+    /* height: 300px; */
+    /* background-color: rgb(115, 115, 133); */
+    /* position: relative; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.title {
+
+    height: 145px;
+    /* background-color: blanchedalmond; */
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    position: relative;
+}
+
+.title>span {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+.img_div{
+
+    /* background-color: aqua; */
+    height: 403px;
+    position: relative;
+
+
+}
+.img_div>div{
+
+    /* background-color: rgb(96, 108, 108); */
+    height:350px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+}
+.image_4{
+    /* background-color: rgb(157, 167, 167); */
+    height:240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    right: 0;
+    margin: auto;
+
+}
+.image_title{
+    /* background-color: rgb(43, 98, 98); */
+    height: 110px;
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+
+}
+.image_4_div{
+    /* background-color: rgb(53, 215, 215); */
+    height: 240px;
+    width:258px;
+    display: inline-block;
+    position: relative;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto; */
+
+}
+
+
+img:hover{
+    height: 240px;
+    width: 240px;
+    content: url(./the_4_img/R-C.jfif);
+    
+    
+}
+.image_title>div{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.title_bak{
+
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    line-height: 40px;
+}
+body{
+    text-align: center;
+}
